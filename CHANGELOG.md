@@ -8,6 +8,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- Enhanced GitHub Actions release workflow
+- Modern release automation with softprops/action-gh-release
+- Automatic release notes generation
+
+## [1.0.1] - 2024-12-19
+
+### Fixed
+- GitHub Actions release workflow permissions
+- Updated to modern release action (softprops/action-gh-release@v2)
+- Fixed package name references in release notes
+- Added proper permissions for release creation
+
+### Added
 - Comprehensive documentation for open source release
 - Environment variable configuration for all paths
 - Example CSV files for different use cases

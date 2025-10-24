@@ -192,9 +192,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📖 [Documentation](https://github.com/davidajibade/shopify-collection-bulk#readme)
-- 🐛 [Report Issues](https://github.com/davidajibade/shopify-collection-bulk/issues)
-- 💬 [Discussions](https://github.com/davidajibade/shopify-collection-bulk/discussions)
+- 📖 [Documentation](https://github.com/inioluwadavid/Shopify-Collection-Bulk.git#readme)
+- 🐛 [Report Issues](https://github.com/inioluwadavid/Shopify-Collection-Bulk.git/issues)
+- 💬 [Discussions](https://github.com/inioluwadavid/Shopify-Collection-Bulk.git/discussions)
 
 ## Changelog
 

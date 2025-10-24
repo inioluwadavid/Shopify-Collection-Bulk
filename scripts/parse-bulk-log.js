@@ -66,8 +66,8 @@ if (!fs.existsSync(DATA_DIR)) {
   const header = ["row", "title", "error"]; 
   const out = [header.join(",")];
   for (const e of errors) {
-    const title = e.title.includes(",") ? '"' + e.title.replaceAll('"', '""') + '"' : e.title;
-    const err = e.error.includes(",") ? '"' + e.error.replaceAll('"', '""') + '"' : e.error;
+    const title = e.title.includes(",") ? `"${  e.title.replaceAll('"', '""')  }"` : e.title;
+    const err = e.error.includes(",") ? `"${  e.error.replaceAll('"', '""')  }"` : e.error;
     out.push([String(e.row), title, err].join(","));
   }
   fs.writeFileSync(ERROR_CSV, out.join("\n"), "utf8");

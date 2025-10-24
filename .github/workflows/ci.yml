@@ -28,7 +28,7 @@ jobs:
       run: npm ci
 
     - name: Run linting
-      run: npm run lint || echo "Linting not configured yet"
+      run: npm run lint
 
     - name: Check for syntax errors
       run: |

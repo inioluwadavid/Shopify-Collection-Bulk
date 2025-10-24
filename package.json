@@ -23,6 +23,8 @@
     "bulk:collections": "node scripts/bulk-collections.js data/collections.sample.csv",
     "extract:docx": "node scripts/extract-from-docx.js",
     "parse:log": "node scripts/parse-bulk-log.js",
+    "lint": "eslint scripts/*.js",
+    "lint:fix": "eslint scripts/*.js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

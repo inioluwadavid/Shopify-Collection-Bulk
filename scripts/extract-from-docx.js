@@ -34,9 +34,9 @@ function parseRels(xml) {
   return map;
 }
 
-function stripTags(s) {
-  return s.replace(/<[^>]+>/g, "");
-}
+// function stripTags(s) {
+//   return s.replace(/<[^>]+>/g, "");
+// }
 
 function extractRunsText(fragment) {
   // Collect all text nodes inside this fragment
@@ -63,7 +63,7 @@ function parseHyperlinks(documentXml) {
   }
 
   // 2) fldSimple hyperlinks: <w:fldSimple w:instr=" HYPERLINK \"url\" "> ... <w:r><w:t>Text</w:t>
-  const fldRegex = /<w:fldSimple[^>]*w:instr="[^"]*HYPERLINK\s+\"([^"]+)\"[^"]*"[^>]*>([\s\S]*?)<\/w:fldSimple>/g;
+  const fldRegex = /<w:fldSimple[^>]*w:instr="[^"]*HYPERLINK\s+"([^"]+)"[^"]*"[^>]*>([\s\S]*?)<\/w:fldSimple>/g;
   while ((m = fldRegex.exec(documentXml)) !== null) {
     const url = decodeXmlEntities(m[1]);
     const inner = m[2];
@@ -89,7 +89,7 @@ function uniqueBy(arr, keyFn) {
 function toCsvValue(val) {
   const s = String(val ?? "");
   if (s.includes("\"") || s.includes(",") || s.includes("\n")) {
-    return '"' + s.replaceAll('"', '""') + '"';
+    return `"${  s.replaceAll('"', '""')  }"`;
   }
   return s;
 }

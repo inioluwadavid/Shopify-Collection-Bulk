@@ -39,7 +39,7 @@ function log(message) {
 	
 	// Also write to log file
 	try {
-		fs.appendFileSync(LOG_PATH, logMessage + '\n');
+		fs.appendFileSync(LOG_PATH, `${logMessage  }\n`);
 	} catch (err) {
 		console.error('Failed to write to log file:', err.message);
 	}

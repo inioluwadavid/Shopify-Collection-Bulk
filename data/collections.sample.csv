@@ -1,11 +1,11 @@
 title,handle,body_html,image_src,published,type,rules_json,disjunctive
 "Electronics","electronics","Shop our latest electronics and gadgets","https://example.com/electronics.jpg","true","custom",,
 "Smart Home","smart-home","Connected devices for your home","https://example.com/smart-home.jpg","true","custom",,
-"Expensive Items","expensive","High-value products over $100","https://example.com/expensive.jpg","true","smart","[{\"column\":\"price\",\"relation\":\"greater_than\",\"condition\":\"100\"}]","false"
+"Expensive Items","expensive","High-value products over $100","https://example.com/expensive.jpg","true","smart","[{""column"":""price"",""relation"":""greater_than"",""condition"":""100""}]","false"
 "Electronics Accessories","electronics-accessories","Accessories for electronic devices","https://example.com/accessories.jpg","true","custom",,
-"New Arrivals","new-arrivals","Latest products added to our store","https://example.com/new-arrivals.jpg","true","smart","[{\"column\":\"created_at\",\"relation\":\"greater_than\",\"condition\":\"2024-01-01\"}]","false"
-"Sale Items","sale-items","Products currently on sale","https://example.com/sale.jpg","true","smart","[{\"column\":\"compare_at_price\",\"relation\":\"greater_than\",\"condition\":\"0\"}]","false"
+"New Arrivals","new-arrivals","Latest products added to our store","https://example.com/new-arrivals.jpg","true","smart","[{""column"":""created_at"",""relation"":""greater_than"",""condition"":""2024-01-01""}]","false"
+"Sale Items","sale-items","Products currently on sale","https://example.com/sale.jpg","true","smart","[{""column"":""compare_at_price"",""relation"":""greater_than"",""condition"":""0""}]","false"
 "Featured Products","featured","Our featured product collection","https://example.com/featured.jpg","true","custom",,
 "Outdoor Gear","outdoor-gear","Equipment for outdoor adventures","https://example.com/outdoor.jpg","true","custom",,
 "Kitchen Essentials","kitchen","Essential kitchen tools and appliances","https://example.com/kitchen.jpg","true","custom",,
-"Premium Brands","premium","Products from premium brands","https://example.com/premium.jpg","true","smart","[{\"column\":\"vendor\",\"relation\":\"equals\",\"condition\":\"Premium Brand\"}]","false"
+"Premium Brands","premium","Products from premium brands","https://example.com/premium.jpg","true","smart","[{""column"":""vendor"",""relation"":""equals"",""condition"":""Premium Brand""}]","false"

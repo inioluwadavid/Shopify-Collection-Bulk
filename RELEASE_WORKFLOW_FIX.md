@@ -46,8 +46,8 @@ permissions:
 ### **Option 1: Create a New Tag (Recommended)**
 ```bash
 # Create and push a new tag
-git tag -a v1.0.1 -m "Fix release workflow and update dependencies"
-git push origin v1.0.1
+git tag -a v1.0.2 -m "Fix release workflow and update dependencies"
+git push origin v1.0.2
 ```
 
 ### **Option 2: Update Existing Tag**

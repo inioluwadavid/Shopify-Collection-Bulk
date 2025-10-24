@@ -1,0 +1,46 @@
+{
+  "name": "shopify-collection-bulk",
+  "version": "1.0.0",
+  "description": "A powerful Node.js utility for bulk creating and managing Shopify collections from CSV files and Word documents via the Shopify Admin API",
+  "keywords": [
+    "shopify",
+    "collections",
+    "bulk",
+    "csv",
+    "admin-api",
+    "ecommerce",
+    "automation"
+  ],
+  "author": "David Ajibade",
+  "license": "MIT",
+  "type": "module",
+  "main": "scripts/bulk-collections.js",
+  "bin": {
+    "shopify-bulk-collections": "scripts/bulk-collections.js"
+  },
+  "scripts": {
+    "start": "node scripts/bulk-collections.js",
+    "bulk:collections": "node scripts/bulk-collections.js data/collections.sample.csv",
+    "extract:docx": "node scripts/extract-from-docx.js",
+    "parse:log": "node scripts/parse-bulk-log.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidajibade/shopify-collection-bulk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davidajibade/shopify-collection-bulk/issues"
+  },
+  "homepage": "https://github.com/davidajibade/shopify-collection-bulk#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "csv-parse": "^5.5.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}

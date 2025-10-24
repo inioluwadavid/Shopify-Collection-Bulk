@@ -1,6 +1,6 @@
 {
   "name": "shopify-collection-bulk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A powerful Node.js utility for bulk creating and managing Shopify collections from CSV files and Word documents via the Shopify Admin API",
   "keywords": [
     "shopify",

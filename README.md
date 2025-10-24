@@ -15,7 +15,7 @@ A powerful Node.js utility for bulk creating and managing Shopify collections fr
 
 ```bash
 # Clone the repository
-git clone https://github.com/davidajibade/shopify-collection-bulk.git
+git clone https://github.com/inioluwadavid/Shopify-Collection-Bulk.git
 cd shopify-collection-bulk
 
 # Install dependencies
